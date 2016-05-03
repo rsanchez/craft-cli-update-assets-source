@@ -1,0 +1,22 @@
+{
+    "name": "craft-cli/update-assets-source",
+    "description": "Craft CLI plugin to update an Assets source",
+    "authors": [
+        {
+            "name": "Rob Sanchez",
+            "email": "info@robsanchez.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "CraftCli\\": "src/" }
+    },
+    "require": {
+        "craft-cli/cli": "*"
+    },
+    "extra": {
+        "craft-cli": {
+            "namespace": "\\CraftCli\\Command",
+            "commandDirs": ["src/Command"]
+        }
+    }
+}
